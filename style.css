@@ -1,0 +1,29 @@
+
+body {
+  background-color: #f0f0f0; 
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.draggable {
+  width: 150px;
+  height: 100px;
+  background-color: #add8e6; 
+  color: #505050; 
+  border: 2px solid #505050; 
+  border-radius: 10px; 
+  position: absolute;
+  cursor: grab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  resize: both;
+  overflow: auto;
+}
+
+.draggable:active {
+  cursor: grabbing;
+}
